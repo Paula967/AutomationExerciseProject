@@ -1,0 +1,12 @@
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json". @12-03-2025 15:43:55.0223 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @12-03-2025 15:43:55.0319 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json". @12-03-2025 15:43:55.0325 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @12-03-2025 15:43:55.0331 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json". @12-03-2025 15:43:55.0334 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @12-03-2025 15:43:55.0339 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json". @12-03-2025 15:43:55.0341 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @12-03-2025 15:43:55.0343 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json". @12-03-2025 15:43:55.0345 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @12-03-2025 15:43:55.0347 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json". @12-03-2025 15:43:55.0349 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @12-03-2025 15:43:55.0351 PM

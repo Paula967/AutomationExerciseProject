@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '15 out of 27' test cases in the current suite                                       
+                  Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_ProductsList_Is_Visible_Successfully'                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Assert that the element located by "By.xpath: //div[@class='features_items']" is visible; hidden attribute is equal to "null". @12-03-2025 15:43:23.0484 PM
+[ReportManager] Get  dom  attribute "By.xpath: //div[@class='features_items']" @12-03-2025 15:43:25.0466 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:25.0466 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-43-35-618_12032025' @12-03-2025 15:43:36.0743 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:36.0743 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:36.0743 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:43:36.0743 PM

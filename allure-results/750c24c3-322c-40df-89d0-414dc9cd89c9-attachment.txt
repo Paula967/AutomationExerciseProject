@@ -1,0 +1,12 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '18 out of 27' test cases in the current suite                                       
+                         Test Method: 'TestPackage.TestSearchProduct.Verify_that_AllProductsRelatedToSearch_are_Visible'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Get  text "By.cssSelector: div[class='productinfo text-center'] p" @12-03-2025 15:43:54.0721 PM
+[ReportManager] Assert that "Green Side Placket Detail T-Shirt" is equal to "Green Side Placket Detail T-Shirt". @12-03-2025 15:43:54.0768 PM
+[ReportManager] Expected "Green Side Placket Detail T-Shirt", and actual "Green Side Placket Detail T-Shirt" @12-03-2025 15:43:54.0769 PM
+[ReportManager] Expected "Green Side Placket Detail T-Shirt", and actual "Green Side Placket Detail T-Shirt" @12-03-2025 15:43:54.0770 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:54.0771 PM
+[ReportManager] Verify all the products related to search are visible @12-03-2025 15:43:54.0771 PM

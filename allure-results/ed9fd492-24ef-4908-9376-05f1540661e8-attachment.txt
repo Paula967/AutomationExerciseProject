@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '17 out of 27' test cases in the current suite                                       
+                               Test Method: 'TestPackage.TestSearchProduct.Verify_that_SearchedProduct_Is_visible'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " Products" @12-03-2025 15:43:50.0470 PM
+[ReportManager] Type "Search Product" @12-03-2025 15:43:51.0482 PM
+[ReportManager] Click "" @12-03-2025 15:43:51.0760 PM
+[ReportManager] Assert that the element located by "By.xpath: //h2[normalize-space()='Searched Products']" is visible; hidden attribute is equal to "null". @12-03-2025 15:43:51.0764 PM
+[ReportManager] Get  dom  attribute "SEARCHED PRODUCTS" @12-03-2025 15:43:52.0638 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:52.0638 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-43-54-382_12032025' @12-03-2025 15:43:54.0384 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:54.0385 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:54.0385 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:43:54.0386 PM

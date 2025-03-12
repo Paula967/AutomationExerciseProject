@@ -1,0 +1,17 @@
+{
+  "Name": "poula",
+  "Password": "Test202533",
+  "Day": 9,
+  "Month": "January",
+  "Year": 2000,
+  "FirstName": "poula",
+  "LastName": "farid",
+  "Company": "lava",
+  "Address1": "21 st elhorya",
+  "Address2": "25 st el horya",
+  "Country": "United States",
+  "State": "california",
+  "City": "cairo",
+  "Zipcode": 25478,
+  "MobileNumber": 123456789
+}

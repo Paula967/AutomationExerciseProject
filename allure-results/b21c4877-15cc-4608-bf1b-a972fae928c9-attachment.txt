@@ -1,0 +1,56 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '23 out of 27' test cases in the current suite                                       
+                               Test Method: 'TestPackage.TestPlaceOrder.Verify_that_PlaceOrderLoginBeforeCheckout'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://automationexercise.com/" @12-03-2025 15:44:11.0528 PM
+[ReportManager] Initial URL: "https://automationexercise.com/view_cart" @12-03-2025 15:44:11.0555 PM
+[ReportManager] Navigate to url "https://automationexercise.com/". @12-03-2025 15:44:15.0502 PM
+[ReportManager] Click " Signup / Login" @12-03-2025 15:44:15.0958 PM
+[ReportManager] Type "Email Address" @12-03-2025 15:44:19.0596 PM
+[ReportManager] Type "Password" @12-03-2025 15:44:19.0855 PM
+[ReportManager] Click "Login" @12-03-2025 15:44:20.0276 PM
+[ReportManager] Click " Add to cart" @12-03-2025 15:44:21.0490 PM
+[ReportManager] Click "By.cssSelector: p[class='text-center'] a" @12-03-2025 15:44:21.0873 PM
+[ReportManager] Click "Proceed To Checkout" @12-03-2025 15:44:23.0122 PM
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/MainEmailWithAddressDetailsData.json". @12-03-2025 15:44:23.0132 PM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @12-03-2025 15:44:23.0137 PM
+[ReportManager] Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(3)" @12-03-2025 15:44:23.0639 PM
+[ReportManager] Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(4)" @12-03-2025 15:44:23.0685 PM
+[ReportManager] Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(5)" @12-03-2025 15:44:23.0756 PM
+[ReportManager] Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(6)" @12-03-2025 15:44:23.0810 PM
+[ReportManager] Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(7)" @12-03-2025 15:44:23.0858 PM
+[ReportManager] Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(8)" @12-03-2025 15:44:23.0905 PM
+[ReportManager] Assert that "lava" equals "lava", ignoring case sensitivity. @12-03-2025 15:44:24.0203 PM
+[ReportManager] Expected "lava", and actual "lava" @12-03-2025 15:44:24.0204 PM
+[ReportManager] Expected "lava", and actual "lava" @12-03-2025 15:44:24.0204 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0205 PM
+[ReportManager] Assert that "21 st elhorya" equals "21 st elhorya", ignoring case sensitivity. @12-03-2025 15:44:24.0206 PM
+[ReportManager] Expected "21 st elhorya", and actual "21 st elhorya" @12-03-2025 15:44:24.0207 PM
+[ReportManager] Expected "21 st elhorya", and actual "21 st elhorya" @12-03-2025 15:44:24.0207 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0208 PM
+[ReportManager] Assert that "25 st el horya" equals "25 st el horya", ignoring case sensitivity. @12-03-2025 15:44:24.0209 PM
+[ReportManager] Expected "25 st el horya", and actual "25 st el horya" @12-03-2025 15:44:24.0210 PM
+[ReportManager] Expected "25 st el horya", and actual "25 st el horya" @12-03-2025 15:44:24.0211 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0211 PM
+[ReportManager] Assert that "cairo" equals "cairo", ignoring case sensitivity. @12-03-2025 15:44:24.0212 PM
+[ReportManager] Expected "cairo", and actual "cairo" @12-03-2025 15:44:24.0213 PM
+[ReportManager] Expected "cairo", and actual "cairo" @12-03-2025 15:44:24.0214 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0214 PM
+[ReportManager] Assert that "california" equals "california", ignoring case sensitivity. @12-03-2025 15:44:24.0215 PM
+[ReportManager] Expected "california", and actual "california" @12-03-2025 15:44:24.0216 PM
+[ReportManager] Expected "california", and actual "california" @12-03-2025 15:44:24.0216 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0217 PM
+[ReportManager] Assert that "25478" equals "25478", ignoring case sensitivity. @12-03-2025 15:44:24.0219 PM
+[ReportManager] Expected "25478", and actual "25478" @12-03-2025 15:44:24.0220 PM
+[ReportManager] Expected "25478", and actual "25478" @12-03-2025 15:44:24.0220 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0220 PM
+[ReportManager] Assert that "United States" equals "United States", ignoring case sensitivity. @12-03-2025 15:44:24.0222 PM
+[ReportManager] Expected "United States", and actual "United States" @12-03-2025 15:44:24.0223 PM
+[ReportManager] Expected "United States", and actual "United States" @12-03-2025 15:44:24.0224 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0224 PM
+[ReportManager] Assert that "123456789" equals "123456789", ignoring case sensitivity. @12-03-2025 15:44:24.0226 PM
+[ReportManager] Expected "123456789", and actual "123456789" @12-03-2025 15:44:24.0227 PM
+[ReportManager] Expected "123456789", and actual "123456789" @12-03-2025 15:44:24.0228 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:24.0228 PM

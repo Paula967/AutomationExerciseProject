@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 27' test cases in the current suite                                        
+                         Test Method: 'TestPackage.TestRegisterUser.Verify_that_AccountDeleted_is_visible_successfully'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " Delete Account" @12-03-2025 15:42:22.0877 PM
+[ReportManager] Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null". @12-03-2025 15:42:22.0882 PM
+[ReportManager] Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b" @12-03-2025 15:42:23.0936 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:23.0936 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-42-25-546_12032025' @12-03-2025 15:42:25.0546 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:25.0546 PM
+[ReportManager] Assertion passed @12-03-2025 15:42:25.0546 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:42:25.0546 PM
+[ReportManager] Click "Continue" @12-03-2025 15:42:26.0688 PM

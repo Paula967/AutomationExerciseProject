@@ -1,0 +1,1053 @@
+[INFO ] 2025-03-12 15:40:44.978 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.1.20250224[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:40:45.098 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-03-12 15:40:45.270 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-03-12 15:40:46.031 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-03-12 15:40:49.574 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-03-12 15:40:50.136 [main] Utils - [TestNG] Running:
+  C:\Users\lenovo\IdeaProjects\AutomationExerciseProject\testng.xml
+
+[INFO ] 2025-03-12 15:40:50.196 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                      'TestPackage.TestRegisterUser.setup'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:40:50.493 [main] ReportManager - Post processing some properties to support platforms-specific restrictions.
+[INFO ] 2025-03-12 15:40:50.519 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-03-12 15:40:51.244 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.25".
+[INFO ] 2025-03-12 15:40:51.334 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-port=60247, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\lenovo\IdeaProject..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-03-12 15:40:51.334 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-03-12 15:40:51.334 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-03-12 15:40:51.793 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-03-12 15:40:51.898 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-03-12 15:40:53.023 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-03-12 15:40:53.023 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-03-12 15:40:53.023 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-03-12 15:40:53.023 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-03-12 15:40:53.038 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-03-12 15:40:53.038 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.038 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.038 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.038 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.038 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/23)[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.038 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.038 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.038 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-03-12 15:40:53.038 [] headers - >> Accept: */*
+[DEBUG] 2025-03-12 15:40:53.038 [] headers - >> Host: api.github.com
+[DEBUG] 2025-03-12 15:40:53.038 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-03-12 15:40:53.038 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/23)
+[DEBUG] 2025-03-12 15:40:53.038 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-03-12 15:40:53.323 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Date: Wed, 12 Mar 2025 13:38:02 GMT[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "ETag: W/"1bc062c8c64efe44478efd9060b0080ef646a984bcd0a8298e340386c03a075c"[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Last-Modified: Mon, 10 Mar 2025 00:44:34 GMT[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-RateLimit-Remaining: 58[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-RateLimit-Reset: 1741789671[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.338 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.488 [] wire -  << "X-RateLimit-Used: 2[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.488 [] wire -  << "Content-Length: 1087[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.488 [] wire -  << "X-GitHub-Request-Id: EB59:692D9:A5FEB:A9CE2:67D18E39[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.488 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-03-12 15:40:53.488 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Date: Wed, 12 Mar 2025 13:38:02 GMT
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << ETag: W/"1bc062c8c64efe44478efd9060b0080ef646a984bcd0a8298e340386c03a075c"
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Last-Modified: Mon, 10 Mar 2025 00:44:34 GMT
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Server: github.com
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-RateLimit-Remaining: 58
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-RateLimit-Reset: 1741789671
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-RateLimit-Used: 2
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << Content-Length: 1087
+[DEBUG] 2025-03-12 15:40:53.503 [] headers - << X-GitHub-Request-Id: EB59:692D9:A5FEB:A9CE2:67D18E39
+[DEBUG] 2025-03-12 15:40:53.533 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad][0x96][0x8b]n[0xdb]6[0x14][0x86]_[0x85]PQ[0xc]0l[0xdd][0x9d][0xd9][0xc2][0xba][0xae]i[0xd2]6[0xdb][0x9c][0xb4]M[0x8a][0x1]k[0xb][0x83][0x92]h[0x89][0x9]E[0xb2]$[0xe5][0xd4]1[0xf2][0xee];[0x94]e/[0x11][0xb6][0xa4]"
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "[0x88][0x8c] [0x8e][0xcc][0x90][0xdf]9[0xfc][0xcf]Mk[0xa7]V[0xcc]I[0x9c][0xd2][0x18][0xa9][0x13][0xcf][0xc3][0x92][0xba][0x5]5e[0x9d][0xba][0x99][0xa8]<E[0xa4][0xd0][0xde]y[0x89][0x17][0xe6][0xdd][0x7][0xef][0xfc][0xdd][0xab]7[0x17][0xf3][0xe3][0xd3][0xb7]'[0xa7][0xc7][0xf0]/F[0xb0]&[0xda][0xb][0xfd][0xf8] [0xc][0xc6]q[0xe4][0xc][0x1d][0xac]51z[0xbe]?[0xa6][0xb7]![0x2][0xba][0x96]L[0xe0][0xbc][0x83][0xde],[0xea]'[0xbb][0xdc][0xe2][0xd7]/9[0xae][0xc8][0x90][0xe1][0x94][0xb0][[0xb0]U[0x9a][0x8a]u,[0xdd][0x11][0xe5]a9[0xc].[0xbc][0xa9][0x1b][0xb8][0xa1][0x1f][0x8e][0xfd][0xc8][0x9f][0x2][0x8e][0xe6]N[0xb2]S[0x9]D[0xaa]M)[0x94][0x93][0xac][0x1d]&[\n]"
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "[0xca]A[0xfd][\r]|[0x84]3C[0x5][0xd7][0x9f]Sa[0xbe][0xb6][0xc7][0xe2]`2[0x9d][0x84][0x93]p[0xe8]p[0x91][0x93][0xb9]%9[0xb3][0xa3][0xd9][0xc1][0x87]j[0xea][0x9f][0x1e][0x1d][0xc7]g[0x17][0xc5][0xea][0xec][0xe8][0xe4][0x85][0xd5]~[0x89][\r]V][0xed][0x9b][0xc5][0xad]@[0xb5]&*[0x13][0xdc][0x10]n[0x9a][0xf0]R[0xee][0x5][0xe3][0xe8]`[0xf2]r[0xf9]"[0x6]B[0xa1]ZFc[0xc6]j[0xfe]PnX[0x98][0xf6][0xee][0xbb][0xfe]||[0x8][0xce]?[0x1f][0x1f]=*"[0x96][0xb2]{[0x18][0xce],[0x4]c[0xe2][0x1a][0xb8][0xdd]k[0xdc]O[0xcb][0x7]M{;[0xc8][0xe]Hy[0xd1][0x1f][0x8][0x90][0xb5]'LI@c[0xb8][0xba][0xcd][0x93][0x82][0xea][0xc7][0xb2][0xfd]aW[0x1b][0xc0][0x1a]D[0xd4][0x6]bk[0x91][0x1a][0xc2][0xa5]H7[0xcf];e[0xf9]0[0xb4]E[0x80][0xb3][0xd7][0x1c][0xfc]\7U[0xdc][0xb0][0xeb]Tg[0x8a][0xca]&[0xcb][0xfa][0x8]r[0xf][0x4]`[0xa1][\n]"
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "[0xcc][0xe9][\r][0xee][\r][0x6][0x90][0x6]^[0xd3]v[0xfa]8[0xd8][0x0][0x0]D[0x96][0x90][0xea][0xbd]H[0x1b][0xc2][0xda][0x93][0x8a].q[0xb6][0xb2]2*[0x92][0x11][0xba][0x84][0x18][0xf5][0xa7]wP[0x0]7+I[0xa0][0xf8][0xe][0x85][0x81]/6[0xce][0xf3]%%[0xd7][0xf3]vY[0xd6])[0xa3][0x99][\r]%5d[0x8e][0xf3][0xca][0xb6][0x8f][0x5]f[0x9a][0xdc][0xde][0xed][0x10][0x1f][0x8f][0xe7]W[0xd7]Gg[0xaf][0xdf][0x92][0x8b][0x3][0x1d][0xcf]fW)[0xb7]h\[0xcc]m[0x9f][0x3]|[0xa7]AA[0xce][0x15][0xc4][0xcc][0xa1]%T[0xd4]P][0xc2][0x8e][\n]"
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "[0x3][0x1a][0x98][0xff][0xb9]?W0[0x10]Z[0xc3]CG*[0xd2][0xe][0x83][0xdd]R[0xa6][0x8]6[0xa0][0x10][0x86]][0x8e][0xed][0x84]#?[0x1a][0x5][0xfe][0x85][0xef]'q[0x9c][0x4][0xfe][0xdf][0x80]n[0xee][0xa2][0xcb][0xff][0xdd][0x15][0xc5]vW[0xdb][0xff][0x93][0xcf]_[0xed][0x5]T[0x8a]Y[0xb7]3[0xff][0xf8][0xc8]j[0xcf]w[0xdb][0xf3][\r][0x95][0xbd][0xb0][0xed][0xf9].6[0x15][0xf9][\n]"
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "n[0xff][0xec][0x19][0xfa][0xab][0xc4][0xe6]'[0x8d]^[0x97][0x98][0x17]$[0xff][0xc2][0x7][0xe8][0xb0][0xae]$[0x9a]aSRR[0x9f][0x8b][0x95][0xc6][0xcc][0xfb][0x1d]zo.[0xb2][0xd1]V[0x16][0xe5][0xae]*[0x86][0x16]JT(t[0xc7][0xae][0x8f][0x8c]@[0x91][0xeb][0xbb]!JW[0xe8][0xb7][0x9c]H[0xc2]s[0xc][0xcd][0x16]Q[0x8e][0xb6][0xd3][0xfb][0xb1]!%k[0xc6][0xbc]`[0x1a][0xc4][0xd6][0x87]Z[0xe6]P[0xb0][0xbc]@[0x92]J[0xc2]('[0xd6][0x2][0xe1]8e[0x4][0xc1][0x88][0x12][0x95][0x8d] [0xba][0xdc][0xb8][0x85]Z[0xb7][0xec]~k&J[0x9c][0xc2][0x7]%O[0xb1]?[0xb5][0xf6]?[0x92][0x5][0xc]<[0xa1][0xd0][0xab][0xf7]'[0xf0][0xe5][M[0xb4]A[0xef][0xb1][0x82][0x8c]30[0x1][0xac]7[0x9f]4[0x1][0x95][0xe4]/[0xe7]F[0x81][0xe1]!:K/If~E[0xb]8uRI%[0xa0][\n]"
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "a[0x13]N)[0xa3]f[0xd5]8[0xf6][0xc7]JQ[0x98]![0xfa][0x14][0x17][0xa4]|[0x8a]oc[0xeb][0xdb]y[0x85][0x95][0xf9]Sd[0x18][0xfc][0xd3][0xfd]/[0x1c][0x6][0xbb][0xa0]C[0x8d][0xb9][0xb][0xac][0xe1][0x86][0xdf]+[0xe6]^[0xe2][0xec]J[0xb][0xee]B$[0xb0]-[0xf1][0xa4]][0x18]m[0x17]F[0x97][0xf9][0xd5]d[0x9b][0x5][0xc1][0x4][0xa2][0xf][0xb2][0x84].<E[0xfd][0xf3] [0xf4]wnA[0xe3]u/[0xb5][0xa8]e[0xd2]|n,[0x6][0x1b];`[0x11][0x9e][0xa0]e[0xec][0xc1]b[0x93]yM[0xf6][[0x8b][0x95][0xc8][0xae][0xa8][0x11]I[0xfb]w[0x94][0x9]E6[0xa6][0xc7]n0[0xde]\[0x16][0x9e][0xe] [0xfb]{'}[0x18]Y[0xd3][0xb][0xfa][0x1d][0x92][0x2][0x9a][0x1c]f[0xed][0xbc]Bb[0x81][0xec][0xb8]P[0xc6][0xfe]b[0xb6][0x87]h[0xff]l-[0x9][0x18][0xb3][0x15][0xbd]![0x88][0xe3]%-[0x9a][0xd1][0x88]$Q[0x90][0xba][0x15][0xe6][0x19][0xd9][0x83][0x99][0xa6][0x8a]>Ixk[0xcb][0x9][0x82][0xb7][0xf1][\n]"
+[DEBUG] 2025-03-12 15:40:53.533 [] wire -  << "f[0x1d]j[0xdf]!Q#e[0xef]J[0x8d][0x9a][0xc][0x1][0xd1][0xa0][0xfc]F[0xdb]>1Z`[0xca]jE[0xf6]P[0x18]QS[0x18]w[0xa7][0xd1][0x1e]|[0xe][0xbf]p[0xfb]3[0x18][0xbc][0x81]v[0xd7]v]x[0xd3][0x1e][0xc][0x92][0x1f]n[0x94]P[0xa5][0x12]+[0xf2]oK[0xf][0xc3][0xd8]u[0xdd][0xce][0xd8][0xb4][0x82]7[0xaf]R[0x99][0xa8]9L[0xba][0xe8][0xf6][0x1f][0x4][0xf0]QpO[\r][0x0][0x0]"
+[DEBUG] 2025-03-12 15:40:53.533 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-03-12 15:40:53.653 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1402a1fc
+[DEBUG] 2025-03-12 15:40:53.653 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-03-12 15:40:54.643 [] ReportManager - 
+[1;33m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          ⚠️ You're using an outdated engine version "9.1.20250224" ⚠️                                          
+                                 Kindly upgrade to the latest one "9.1.20250309" to ensure the best experience.                                 
+                           For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:00.111 [] ReportManager - Loaded OpenCV "opencv_java490".
+[WARN ] 2025-03-12 15:41:08.719 [main] ReportManager - Mar 12, 2025 3:41:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-03-12 15:41:08.719 [main] ReportManager - WARNING: Unable to find CDP implementation matching 123
+[WARN ] 2025-03-12 15:41:08.719 [main] ReportManager - Mar 12, 2025 3:41:08 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+[WARN ] 2025-03-12 15:41:08.719 [main] ReportManager - WARNING: Unable to find version of CDP to use for 123.0.6312.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.29.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-03-12 15:41:08.749 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-03-12 15:41:08.785 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:41:08.815 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-03-12 15:41:26.201 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:41:26.393 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2025-03-12 15:41:26.573 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:26.648 [main] ReportManager - Initializing Properties...
+[DEBUG] 2025-03-12 15:41:26.966 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:60249<->140.82.121.6:443 closed
+[INFO ] 2025-03-12 15:41:27.157 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                     'TestPackage.TestRegisterUser.initiate'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:27.974 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:41:27.977 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:41:27.979 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:41:28.337 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:41:28.337 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:41:28.352 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:41:28.352 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:41:28.352 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:41:28.352 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:41:28.352 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:41:28.367 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:41:28.595 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:41:28.597 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:41:28.833 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 27' test cases in the current suite                                        
+                            Test Method: 'TestPackage.TestRegisterUser.Verify_that_home_page_is_visible_successfully'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:28.848 [main] ReportManager - Assert that the element located by "By.cssSelector: div[class='item active'] div[class='col-sm-6'] h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:41:29.240 [main] ReportManager - Get  dom  attribute "Full-Fledged practice website for Automation Engineers"
+[DEBUG] 2025-03-12 15:41:29.242 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:41:42.420 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-41-42-390_12032025'
+[INFO ] 2025-03-12 15:41:42.420 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:41:42.420 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:41:42.420 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:41:42.480 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_home_page_is_visible_successfully'
+[INFO ] 2025-03-12 15:41:42.480 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_home_page_is_visible_successfully'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:42.630 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 27' test cases in the current suite                                        
+                          Test Method: 'TestPackage.TestRegisterUser.Verify_that_newUserSignUp_is_visible_successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:42.915 [main] ReportManager - Click " Signup / Login"
+[INFO ] 2025-03-12 15:41:42.915 [main] ReportManager - Assert that the element located by "By.cssSelector: div[class='signup-form'] h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:41:53.610 [main] ReportManager - Get  dom  attribute "New User Signup!"
+[DEBUG] 2025-03-12 15:41:53.625 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:41:54.782 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-41-54-782_12032025'
+[INFO ] 2025-03-12 15:41:54.782 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:41:54.797 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:41:54.797 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:41:54.812 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_newUserSignUp_is_visible_successfully'
+[INFO ] 2025-03-12 15:41:54.812 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+               Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_newUserSignUp_is_visible_successfully'               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:54.827 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 27' test cases in the current suite                                        
+                     Test Method: 'TestPackage.TestRegisterUser.Verify_that_EnterAccountInformation_is_visible_successfully'                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:41:55.443 [main] ReportManager - Type "Name"
+[INFO ] 2025-03-12 15:41:56.208 [main] ReportManager - Type "Email Address"
+[INFO ] 2025-03-12 15:41:56.268 [main] ReportManager - Click "Signup"
+[INFO ] 2025-03-12 15:41:56.279 [main] ReportManager - Assert that the element located by "By.xpath: //b[normalize-space()='Enter Account Information']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:41:57.719 [main] ReportManager - Get  dom  attribute "By.xpath: //b[normalize-space()='Enter Account Information']"
+[DEBUG] 2025-03-12 15:41:57.719 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:00.358 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-00-358_12032025'
+[INFO ] 2025-03-12 15:42:00.358 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:00.358 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:00.358 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:00.373 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_EnterAccountInformation_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:00.373 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+          Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_EnterAccountInformation_is_visible_successfully'          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:00.373 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 27' test cases in the current suite                                        
+                         Test Method: 'TestPackage.TestRegisterUser.Verify_that_ACCOUNTCREATED_is_visible_successfully'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:00.539 [main] ReportManager - Click "Mr."
+[INFO ] 2025-03-12 15:42:01.680 [main] ReportManager - Type "Name *"
+[INFO ] 2025-03-12 15:42:01.860 [main] ReportManager - Type "Password *"
+[INFO ] 2025-03-12 15:42:03.690 [main] ReportManager - Select "9" from "By.cssSelector: #days".
+[INFO ] 2025-03-12 15:42:04.276 [main] ReportManager - Select "January" from "By.cssSelector: #months".
+[INFO ] 2025-03-12 15:42:05.731 [main] ReportManager - Select "2000" from "By.cssSelector: #years".
+[INFO ] 2025-03-12 15:42:05.882 [main] ReportManager - Click "Sign up for our newsletter!"
+[INFO ] 2025-03-12 15:42:06.002 [main] ReportManager - Click "Receive special offers from our partners!"
+[INFO ] 2025-03-12 15:42:06.887 [main] ReportManager - Type "First name *"
+[INFO ] 2025-03-12 15:42:07.106 [main] ReportManager - Type "Last name *"
+[INFO ] 2025-03-12 15:42:07.316 [main] ReportManager - Type "Company"
+[INFO ] 2025-03-12 15:42:07.496 [main] ReportManager - Type "Address * (Street address, P.O. Box, Company name, etc.)"
+[INFO ] 2025-03-12 15:42:07.706 [main] ReportManager - Type "Address 2"
+[INFO ] 2025-03-12 15:42:08.307 [main] ReportManager - Select "United States" from "Country *".
+[INFO ] 2025-03-12 15:42:08.517 [main] ReportManager - Type "State *"
+[INFO ] 2025-03-12 15:42:08.727 [main] ReportManager - Type "City * Zipcode *"
+[INFO ] 2025-03-12 15:42:08.972 [main] ReportManager - Type "By.cssSelector: #zipcode"
+[INFO ] 2025-03-12 15:42:09.167 [main] ReportManager - Type "Mobile Number *"
+[INFO ] 2025-03-12 15:42:09.618 [main] ReportManager - Click "Create Account"
+[INFO ] 2025-03-12 15:42:09.633 [main] ReportManager - Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:12.131 [main] ReportManager - Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b"
+[DEBUG] 2025-03-12 15:42:12.131 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:13.302 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-13-297_12032025'
+[INFO ] 2025-03-12 15:42:13.302 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:13.302 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:13.302 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:13.317 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_ACCOUNTCREATED_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:13.320 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+              Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_ACCOUNTCREATED_is_visible_successfully'              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:13.335 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 27' test cases in the current suite                                        
+                            Test Method: 'TestPackage.TestRegisterUser.Verify_that_loggedIn_is_visible_successfully'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:13.508 [main] ReportManager - Click "Continue"
+[INFO ] 2025-03-12 15:42:13.525 [main] ReportManager - Assert that the element located by "By.cssSelector: li:nth-child(10) a:nth-child(1)" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:14.977 [main] ReportManager - Get  dom  attribute "By.cssSelector: li:nth-child(10) a:nth-child(1)"
+[DEBUG] 2025-03-12 15:42:14.978 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:22.014 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-21-961_12032025'
+[INFO ] 2025-03-12 15:42:22.016 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:22.017 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:22.017 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:22.020 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_loggedIn_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:22.021 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_loggedIn_is_visible_successfully'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:22.031 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 27' test cases in the current suite                                        
+                         Test Method: 'TestPackage.TestRegisterUser.Verify_that_AccountDeleted_is_visible_successfully'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:22.877 [main] ReportManager - Click " Delete Account"
+[INFO ] 2025-03-12 15:42:22.882 [main] ReportManager - Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:23.936 [main] ReportManager - Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b"
+[DEBUG] 2025-03-12 15:42:23.936 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:25.546 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-25-546_12032025'
+[INFO ] 2025-03-12 15:42:25.546 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:25.546 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:25.546 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:26.688 [main] ReportManager - Click "Continue"
+[INFO ] 2025-03-12 15:42:26.688 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_AccountDeleted_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:26.688 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+              Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_AccountDeleted_is_visible_successfully'              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:26.688 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                'TestPackage.TestLoginUserWithValidData.initiate'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:26.703 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:42:26.703 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:26.718 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:42:26.718 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:26.718 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:42:26.718 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:26.718 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:42:26.718 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:26.733 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:42:26.733 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:26.733 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:42:26.733 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:26.733 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:42:26.779 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 27' test cases in the current suite                                        
+                  Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_LoginToYourAccount_is_visible_successfully'                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:27.501 [main] ReportManager - Click " Signup / Login"
+[INFO ] 2025-03-12 15:42:27.517 [main] ReportManager - Assert that the element located by "By.cssSelector: div[class='login-form'] h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:28.922 [main] ReportManager - Get  dom  attribute "Login to your account"
+[DEBUG] 2025-03-12 15:42:28.923 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:29.657 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-29-654_12032025'
+[INFO ] 2025-03-12 15:42:29.658 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:29.659 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:29.660 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:29.664 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_LoginToYourAccount_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:29.665 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+       Finished Execution of Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_LoginToYourAccount_is_visible_successfully'       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:29.678 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 27' test cases in the current suite                                        
+                       Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_loggedIn_is_visible_successfully'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:30.730 [main] ReportManager - Type "Email Address"
+[INFO ] 2025-03-12 15:42:31.060 [main] ReportManager - Type "Password"
+[INFO ] 2025-03-12 15:42:31.177 [main] ReportManager - Click "Login"
+[INFO ] 2025-03-12 15:42:31.179 [main] ReportManager - Assert that the element located by "By.cssSelector: li:nth-child(10) a:nth-child(1)" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:32.585 [main] ReportManager - Get  dom  attribute "By.cssSelector: li:nth-child(10) a:nth-child(1)"
+[DEBUG] 2025-03-12 15:42:32.586 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:38.984 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-38-969_12032025'
+[INFO ] 2025-03-12 15:42:38.984 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:38.984 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:38.984 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:39.104 [main] ReportManager - Click " Logout"
+[INFO ] 2025-03-12 15:42:39.119 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_loggedIn_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:39.119 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+            Finished Execution of Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_loggedIn_is_visible_successfully'            
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:39.119 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                 'TestPackage.TestLoginWithInvalidData.initiate'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:39.134 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:42:39.179 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:39.179 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:42:39.179 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:39.194 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:42:39.194 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:39.194 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:42:39.194 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:39.194 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:42:39.284 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:39.284 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:42:39.374 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:39.374 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:42:39.389 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 27' test cases in the current suite                                        
+                   Test Method: 'TestPackage.TestLoginWithInvalidData.Verify_that_LoginToYourAccount_is_visible_successfully'                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:39.389 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:42:40.395 [main] ReportManager - Initial URL: "https://automationexercise.com/login"
+[INFO ] 2025-03-12 15:42:44.734 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:42:44.953 [main] ReportManager - Click " Signup / Login"
+[INFO ] 2025-03-12 15:42:44.959 [main] ReportManager - Assert that the element located by "By.cssSelector: div[class='login-form'] h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:45.857 [main] ReportManager - Get  dom  attribute "Login to your account"
+[DEBUG] 2025-03-12 15:42:45.858 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:46.603 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-46-600_12032025'
+[INFO ] 2025-03-12 15:42:46.604 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:46.604 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:46.605 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:46.608 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_LoginToYourAccount_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:46.608 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+        Finished Execution of Test Method: 'TestPackage.TestLoginWithInvalidData.Verify_that_LoginToYourAccount_is_visible_successfully'        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:46.616 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 27' test cases in the current suite                                       
+           Test Method: 'TestPackage.TestLoginWithInvalidData.Verify_that_ErrorYourEmailOrPasswordIsIncorrect_is_visible_successfully'           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:46.983 [main] ReportManager - Type "Email Address"
+[INFO ] 2025-03-12 15:42:47.188 [main] ReportManager - Type "Password"
+[INFO ] 2025-03-12 15:42:47.280 [main] ReportManager - Click "Login"
+[INFO ] 2025-03-12 15:42:47.282 [main] ReportManager - Assert that the element located by "By.xpath: //p[normalize-space()='Your email or password is incorrect!']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:47.840 [main] ReportManager - Get  dom  attribute "By.xpath: //p[normalize-space()='Your email or password is incorrect!']"
+[DEBUG] 2025-03-12 15:42:47.841 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:48.455 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-42-48-451_12032025'
+[INFO ] 2025-03-12 15:42:48.456 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:42:48.456 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:42:48.457 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:42:48.460 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_ErrorYourEmailOrPasswordIsIncorrect_is_visible_successfully'
+[INFO ] 2025-03-12 15:42:48.461 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+Finished Execution of Test Method: 'TestPackage.TestLoginWithInvalidData.Verify_that_ErrorYourEmailOrPasswordIsIncorrect_is_visible_successfully'
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:48.522 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                      'TestPackage.TestLogoutUser.initiate'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:48.524 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:42:48.526 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:48.528 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:42:48.530 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:48.532 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:42:48.671 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:48.673 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:42:48.677 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:48.679 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:42:48.897 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:48.897 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:42:48.913 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:42:49.018 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:42:49.018 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 27' test cases in the current suite                                       
+                             Test Method: 'TestPackage.TestLogoutUser.Verify_that_loggedIn_is_visible_successfully'                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:42:49.031 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:42:49.062 [main] ReportManager - Initial URL: "https://automationexercise.com/login"
+[INFO ] 2025-03-12 15:42:52.274 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:42:52.406 [main] ReportManager - Click " Signup / Login"
+[INFO ] 2025-03-12 15:42:53.243 [main] ReportManager - Type "Email Address"
+[INFO ] 2025-03-12 15:42:53.517 [main] ReportManager - Type "Password"
+[INFO ] 2025-03-12 15:42:53.645 [main] ReportManager - Click "Login"
+[INFO ] 2025-03-12 15:42:53.650 [main] ReportManager - Assert that the element located by "By.cssSelector: li:nth-child(10) a:nth-child(1)" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:42:54.980 [main] ReportManager - Get  dom  attribute "By.cssSelector: li:nth-child(10) a:nth-child(1)"
+[DEBUG] 2025-03-12 15:42:54.981 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:05.218 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-05-143_12032025'
+[INFO ] 2025-03-12 15:43:05.218 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:05.218 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:05.218 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:05.504 [main] ReportManager - Click " Logout"
+[INFO ] 2025-03-12 15:43:05.609 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_loggedIn_is_visible_successfully'
+[INFO ] 2025-03-12 15:43:05.609 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                  Finished Execution of Test Method: 'TestPackage.TestLogoutUser.Verify_that_loggedIn_is_visible_successfully'                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:05.624 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 27' test cases in the current suite                                       
+                               Test Method: 'TestPackage.TestLogoutUser.Verify_that_user_is_navigated_toLoginPage'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:06.736 [main] ReportManager - Get current url "https://automationexercise.com/login".
+[INFO ] 2025-03-12 15:43:06.858 [main] ReportManager - Assert that "https://automationexercise.com/login" is equal to "https://automationexercise.com/login".
+[DEBUG] 2025-03-12 15:43:06.858 [main] ReportManager - Expected "https://automationexercise.com/login", and actual "https://automationexercise.com/login"
+[INFO ] 2025-03-12 15:43:06.858 [main] ReportManager - Expected "https://automationexercise.com/login", and actual "https://automationexercise.com/login"
+[INFO ] 2025-03-12 15:43:06.858 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:06.858 [main] ReportManager - User can not Navigated to Login Page
+[INFO ] 2025-03-12 15:43:06.918 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_user_is_navigated_toLoginPage'
+[INFO ] 2025-03-12 15:43:06.918 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                    Finished Execution of Test Method: 'TestPackage.TestLogoutUser.Verify_that_user_is_navigated_toLoginPage'                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:07.234 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                              'TestPackage.TestRegisterWithExistingEmail.initiate'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:07.234 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:43:07.309 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:07.309 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:43:07.309 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:07.309 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:43:07.324 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:07.324 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:43:07.339 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:07.339 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:43:07.339 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:07.339 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:43:07.339 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:07.354 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:43:07.354 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 27' test cases in the current suite                                       
+           Test Method: 'TestPackage.TestRegisterWithExistingEmail.Verify_that_ErrorMessageEmailAlreadyExist_is_visible_successfully'           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:07.354 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:43:08.046 [main] ReportManager - Initial URL: "https://automationexercise.com/login"
+[INFO ] 2025-03-12 15:43:13.336 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:43:13.477 [main] ReportManager - Click " Signup / Login"
+[INFO ] 2025-03-12 15:43:14.378 [main] ReportManager - Type "Name"
+[INFO ] 2025-03-12 15:43:14.812 [main] ReportManager - Type "Email Address"
+[INFO ] 2025-03-12 15:43:14.911 [main] ReportManager - Click "Signup"
+[INFO ] 2025-03-12 15:43:14.914 [main] ReportManager - Assert that the element located by "By.cssSelector: body > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > p:nth-child(5)" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:15.553 [main] ReportManager - Get  dom  attribute "By.cssSelector: body > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > p:nth-child(5)"
+[DEBUG] 2025-03-12 15:43:15.553 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:16.643 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-16-640_12032025'
+[INFO ] 2025-03-12 15:43:16.643 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:16.644 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:16.645 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:16.648 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_ErrorMessageEmailAlreadyExist_is_visible_successfully'
+[INFO ] 2025-03-12 15:43:16.649 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+Finished Execution of Test Method: 'TestPackage.TestRegisterWithExistingEmail.Verify_that_ErrorMessageEmailAlreadyExist_is_visible_successfully'
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:16.655 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                             'TestPackage.TestAllProductsAndProductDetails.initiate'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:16.657 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:43:16.695 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:16.703 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:43:16.710 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:16.714 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:43:16.882 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:16.884 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:43:16.887 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:16.889 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:43:19.688 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:19.690 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:43:19.693 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:20.363 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:43:20.778 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '14 out of 27' test cases in the current suite                                       
+            Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_User_Is_Navigated_To_AllProductsPage_successfully'            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:21.052 [main] ReportManager - Click " Products"
+[INFO ] 2025-03-12 15:43:22.851 [main] ReportManager - Get current url "https://automationexercise.com/products".
+[INFO ] 2025-03-12 15:43:23.464 [main] ReportManager - Assert that "https://automationexercise.com/products" is equal to "https://automationexercise.com/products".
+[DEBUG] 2025-03-12 15:43:23.465 [main] ReportManager - Expected "https://automationexercise.com/products", and actual "https://automationexercise.com/products"
+[INFO ] 2025-03-12 15:43:23.466 [main] ReportManager - Expected "https://automationexercise.com/products", and actual "https://automationexercise.com/products"
+[INFO ] 2025-03-12 15:43:23.467 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:23.467 [main] ReportManager - Verify That user is navigated To All Products Page
+[INFO ] 2025-03-12 15:43:23.471 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_User_Is_Navigated_To_AllProductsPage_successfully'
+[INFO ] 2025-03-12 15:43:23.472 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+ Finished Execution of Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_User_Is_Navigated_To_AllProductsPage_successfully' 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:23.480 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '15 out of 27' test cases in the current suite                                       
+                  Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_ProductsList_Is_Visible_Successfully'                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:23.484 [main] ReportManager - Assert that the element located by "By.xpath: //div[@class='features_items']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:25.466 [main] ReportManager - Get  dom  attribute "By.xpath: //div[@class='features_items']"
+[DEBUG] 2025-03-12 15:43:25.466 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:36.743 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-35-618_12032025'
+[INFO ] 2025-03-12 15:43:36.743 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:36.743 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:36.743 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:36.743 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_ProductsList_Is_Visible_Successfully'
+[INFO ] 2025-03-12 15:43:36.743 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+       Finished Execution of Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_ProductsList_Is_Visible_Successfully'       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:36.758 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '16 out of 27' test cases in the current suite                                       
+                        Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_ProductDetails_Is_Visible'                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:37.524 [main] ReportManager - Click " View Product"
+[INFO ] 2025-03-12 15:43:37.824 [main] ReportManager - Assert that the element located by "By.cssSelector: div[class='product-information'] h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:40.614 [main] ReportManager - Get  dom  attribute "Blue Top"
+[DEBUG] 2025-03-12 15:43:40.614 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:42.429 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-42-414_12032025'
+[INFO ] 2025-03-12 15:43:42.429 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:42.429 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:42.429 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:42.429 [main] ReportManager - Assert that the element located by "By.xpath: //p[normalize-space()='Category: Women > Tops']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:42.569 [main] ReportManager - Get  dom  attribute "By.xpath: //p[normalize-space()='Category: Women > Tops']"
+[DEBUG] 2025-03-12 15:43:42.571 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:45.678 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-45-663_12032025'
+[INFO ] 2025-03-12 15:43:45.678 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:45.678 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:45.678 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:45.688 [main] ReportManager - Assert that the element located by "By.xpath: //b[normalize-space()='Availability:']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:45.822 [main] ReportManager - Get  dom  attribute "By.xpath: //b[normalize-space()='Availability:']"
+[DEBUG] 2025-03-12 15:43:45.822 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:46.858 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-46-858_12032025'
+[INFO ] 2025-03-12 15:43:46.858 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:46.858 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:46.858 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:46.858 [main] ReportManager - Assert that the element located by "By.xpath: //b[normalize-space()='Condition:']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:46.990 [main] ReportManager - Get  dom  attribute "By.xpath: //b[normalize-space()='Condition:']"
+[DEBUG] 2025-03-12 15:43:46.991 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:48.414 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-48-414_12032025'
+[INFO ] 2025-03-12 15:43:48.414 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:48.414 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:48.414 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:48.429 [main] ReportManager - Assert that the element located by "By.xpath: //b[normalize-space()='Brand:']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:48.556 [main] ReportManager - Get  dom  attribute "By.xpath: //b[normalize-space()='Brand:']"
+[DEBUG] 2025-03-12 15:43:48.557 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:50.033 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-50-033_12032025'
+[INFO ] 2025-03-12 15:43:50.033 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:50.033 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:50.033 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:50.033 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_ProductDetails_Is_Visible'
+[INFO ] 2025-03-12 15:43:50.033 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+             Finished Execution of Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_ProductDetails_Is_Visible'             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:50.048 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                    'TestPackage.TestSearchProduct.initiate'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:50.048 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:43:50.108 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:50.123 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:43:50.123 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:50.123 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:43:50.123 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:50.123 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:43:50.123 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:50.123 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:43:50.228 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:50.228 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:43:50.228 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:50.228 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:43:50.334 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '17 out of 27' test cases in the current suite                                       
+                               Test Method: 'TestPackage.TestSearchProduct.Verify_that_SearchedProduct_Is_visible'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:50.470 [main] ReportManager - Click " Products"
+[INFO ] 2025-03-12 15:43:51.482 [main] ReportManager - Type "Search Product"
+[INFO ] 2025-03-12 15:43:51.760 [main] ReportManager - Click ""
+[INFO ] 2025-03-12 15:43:51.764 [main] ReportManager - Assert that the element located by "By.xpath: //h2[normalize-space()='Searched Products']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:43:52.638 [main] ReportManager - Get  dom  attribute "SEARCHED PRODUCTS"
+[DEBUG] 2025-03-12 15:43:52.638 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:54.384 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-43-54-382_12032025'
+[INFO ] 2025-03-12 15:43:54.385 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:43:54.385 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:54.386 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:43:54.497 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_SearchedProduct_Is_visible'
+[INFO ] 2025-03-12 15:43:54.497 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                    Finished Execution of Test Method: 'TestPackage.TestSearchProduct.Verify_that_SearchedProduct_Is_visible'                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:54.505 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '18 out of 27' test cases in the current suite                                       
+                         Test Method: 'TestPackage.TestSearchProduct.Verify_that_AllProductsRelatedToSearch_are_Visible'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:54.721 [main] ReportManager - Get  text "By.cssSelector: div[class='productinfo text-center'] p"
+[INFO ] 2025-03-12 15:43:54.768 [main] ReportManager - Assert that "Green Side Placket Detail T-Shirt" is equal to "Green Side Placket Detail T-Shirt".
+[DEBUG] 2025-03-12 15:43:54.769 [main] ReportManager - Expected "Green Side Placket Detail T-Shirt", and actual "Green Side Placket Detail T-Shirt"
+[INFO ] 2025-03-12 15:43:54.770 [main] ReportManager - Expected "Green Side Placket Detail T-Shirt", and actual "Green Side Placket Detail T-Shirt"
+[INFO ] 2025-03-12 15:43:54.771 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:43:54.772 [main] ReportManager - Verify all the products related to search are visible
+[INFO ] 2025-03-12 15:43:54.841 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_AllProductsRelatedToSearch_are_Visible'
+[INFO ] 2025-03-12 15:43:54.842 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+              Finished Execution of Test Method: 'TestPackage.TestSearchProduct.Verify_that_AllProductsRelatedToSearch_are_Visible'              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:55.218 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                  'TestPackage.TestAddProductsInCart.initiate'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:55.223 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:43:55.319 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:55.326 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:43:55.331 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:55.335 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:43:55.339 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:55.341 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:43:55.343 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:55.345 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:43:55.347 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:55.349 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:43:55.351 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:43:55.355 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:43:55.501 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '19 out of 27' test cases in the current suite                                       
+                          Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_productAddedInCart_Successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:43:55.510 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:43:55.580 [main] ReportManager - Initial URL: "https://automationexercise.com/products?search=Green%20Side%20Placket%20Detail%20T-Shirt"
+[INFO ] 2025-03-12 15:44:00.896 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:44:01.001 [main] ReportManager - Click " Products"
+[INFO ] 2025-03-12 15:44:01.980 [main] ReportManager - Click " Add to cart"
+[INFO ] 2025-03-12 15:44:02.626 [main] ReportManager - Click "By.xpath: //button[normalize-space()='Continue Shopping']"
+[INFO ] 2025-03-12 15:44:02.671 [main] ReportManager - Get  text "By.xpath: (//div[@class='product-overlay']/div/p)[1]"
+[INFO ] 2025-03-12 15:44:02.815 [main] ReportManager - Get  text "By.xpath: (//div[@class='product-overlay']/div/p)[2]"
+[INFO ] 2025-03-12 15:44:03.133 [main] ReportManager - Click " Add to cart"
+[INFO ] 2025-03-12 15:44:03.820 [main] ReportManager - Click "View Cart"
+[INFO ] 2025-03-12 15:44:04.465 [main] ReportManager - Get  text "Blue Top"
+[INFO ] 2025-03-12 15:44:04.540 [main] ReportManager - Get  text "Men Tshirt"
+[INFO ] 2025-03-12 15:44:04.540 [main] ReportManager - Assert that "Blue Top" is equal to "Blue Top".
+[DEBUG] 2025-03-12 15:44:04.540 [main] ReportManager - Expected "Blue Top", and actual "Blue Top"
+[INFO ] 2025-03-12 15:44:04.540 [main] ReportManager - Expected "Blue Top", and actual "Blue Top"
+[INFO ] 2025-03-12 15:44:04.540 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:04.555 [main] ReportManager - Products are not the same
+[INFO ] 2025-03-12 15:44:04.555 [main] ReportManager - Assert that "Men Tshirt" is equal to "Men Tshirt".
+[DEBUG] 2025-03-12 15:44:04.555 [main] ReportManager - Expected "Men Tshirt", and actual "Men Tshirt"
+[INFO ] 2025-03-12 15:44:04.555 [main] ReportManager - Expected "Men Tshirt", and actual "Men Tshirt"
+[INFO ] 2025-03-12 15:44:04.555 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:04.555 [main] ReportManager - Products are not the same
+[INFO ] 2025-03-12 15:44:04.555 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_productAddedInCart_Successfully'
+[INFO ] 2025-03-12 15:44:04.555 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+               Finished Execution of Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_productAddedInCart_Successfully'               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:04.570 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '20 out of 27' test cases in the current suite                                       
+                          Test Method: 'TestPackage.TestAddProductsInCart.Verify_ProductDetails_Is_Opened_Successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:04.570 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:44:04.585 [main] ReportManager - Initial URL: "https://automationexercise.com/view_cart"
+[INFO ] 2025-03-12 15:44:08.318 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:44:08.529 [main] ReportManager - Click " View Product"
+[INFO ] 2025-03-12 15:44:09.380 [main] ReportManager - Get current url "https://automationexercise.com/product_details/2".
+[INFO ] 2025-03-12 15:44:09.639 [main] ReportManager - Assert that "https://automationexercise.com/product_details/2" contains "https://automationexercise.com/product_details/".
+[DEBUG] 2025-03-12 15:44:09.640 [main] ReportManager - Expected "https://automationexercise.com/product_details/", and actual "https://automationexercise.com/product_details/2"
+[INFO ] 2025-03-12 15:44:09.640 [main] ReportManager - Expected "https://automationexercise.com/product_details/", and actual "https://automationexercise.com/product_details/2"
+[INFO ] 2025-03-12 15:44:09.641 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:09.643 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_ProductDetails_Is_Opened_Successfully'
+[INFO ] 2025-03-12 15:44:09.644 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+               Finished Execution of Test Method: 'TestPackage.TestAddProductsInCart.Verify_ProductDetails_Is_Opened_Successfully'               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:09.755 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '21 out of 27' test cases in the current suite                                       
+               Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_product_is_displayed_in_cart_page_with_exact_quantity'               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:10.081 [main] ReportManager - Type "By.cssSelector: #quantity"
+[INFO ] 2025-03-12 15:44:10.203 [main] ReportManager - Click " Add to cart"
+[INFO ] 2025-03-12 15:44:10.352 [main] ReportManager - Get  text "By.cssSelector: #quantity"
+[INFO ] 2025-03-12 15:44:10.672 [main] ReportManager - Click "By.cssSelector: p[class='text-center'] a"
+[INFO ] 2025-03-12 15:44:10.769 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_product_is_displayed_in_cart_page_with_exact_quantity'
+[INFO ] 2025-03-12 15:44:10.769 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+    Finished Execution of Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_product_is_displayed_in_cart_page_with_exact_quantity'    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:10.778 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '22 out of 27' test cases in the current suite                                       
+              Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_product_is_displayed_in_cart_page_with_correct_quantity'              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:11.272 [main] ReportManager - Click ""
+[INFO ] 2025-03-12 15:44:11.330 [main] ReportManager - Get  text "5"
+[INFO ] 2025-03-12 15:44:11.333 [main] ReportManager - Assert that "5" is equal to "5".
+[DEBUG] 2025-03-12 15:44:11.334 [main] ReportManager - Expected "5", and actual "5"
+[INFO ] 2025-03-12 15:44:11.334 [main] ReportManager - Expected "5", and actual "5"
+[INFO ] 2025-03-12 15:44:11.334 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:11.335 [main] ReportManager - Quantities Are not Equal
+[INFO ] 2025-03-12 15:44:11.443 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_product_is_displayed_in_cart_page_with_correct_quantity'
+[INFO ] 2025-03-12 15:44:11.445 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+   Finished Execution of Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_product_is_displayed_in_cart_page_with_correct_quantity'   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:11.455 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                      'TestPackage.TestPlaceOrder.initiate'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:11.461 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:44:11.465 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:11.468 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:44:11.471 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:11.474 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:44:11.478 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:11.481 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:44:11.485 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:11.488 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:44:11.491 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:11.495 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:44:11.500 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:11.503 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:44:11.526 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '23 out of 27' test cases in the current suite                                       
+                               Test Method: 'TestPackage.TestPlaceOrder.Verify_that_PlaceOrderLoginBeforeCheckout'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:11.528 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:44:11.555 [main] ReportManager - Initial URL: "https://automationexercise.com/view_cart"
+[INFO ] 2025-03-12 15:44:15.502 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:44:15.958 [main] ReportManager - Click " Signup / Login"
+[INFO ] 2025-03-12 15:44:19.596 [main] ReportManager - Type "Email Address"
+[INFO ] 2025-03-12 15:44:19.855 [main] ReportManager - Type "Password"
+[INFO ] 2025-03-12 15:44:20.276 [main] ReportManager - Click "Login"
+[INFO ] 2025-03-12 15:44:21.490 [main] ReportManager - Click " Add to cart"
+[INFO ] 2025-03-12 15:44:21.873 [main] ReportManager - Click "By.cssSelector: p[class='text-center'] a"
+[INFO ] 2025-03-12 15:44:23.122 [main] ReportManager - Click "Proceed To Checkout"
+[INFO ] 2025-03-12 15:44:23.132 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/MainEmailWithAddressDetailsData.json".
+[INFO ] 2025-03-12 15:44:23.138 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:23.639 [main] ReportManager - Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(3)"
+[INFO ] 2025-03-12 15:44:23.685 [main] ReportManager - Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(4)"
+[INFO ] 2025-03-12 15:44:23.756 [main] ReportManager - Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(5)"
+[INFO ] 2025-03-12 15:44:23.810 [main] ReportManager - Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(6)"
+[INFO ] 2025-03-12 15:44:23.858 [main] ReportManager - Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(7)"
+[INFO ] 2025-03-12 15:44:23.905 [main] ReportManager - Get  text "By.cssSelector: ul[id='address_delivery'] li:nth-child(8)"
+[INFO ] 2025-03-12 15:44:24.203 [main] ReportManager - Assert that "lava" equals "lava", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.204 [main] ReportManager - Expected "lava", and actual "lava"
+[INFO ] 2025-03-12 15:44:24.205 [main] ReportManager - Expected "lava", and actual "lava"
+[INFO ] 2025-03-12 15:44:24.205 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.206 [main] ReportManager - Assert that "21 st elhorya" equals "21 st elhorya", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.207 [main] ReportManager - Expected "21 st elhorya", and actual "21 st elhorya"
+[INFO ] 2025-03-12 15:44:24.207 [main] ReportManager - Expected "21 st elhorya", and actual "21 st elhorya"
+[INFO ] 2025-03-12 15:44:24.208 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.209 [main] ReportManager - Assert that "25 st el horya" equals "25 st el horya", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.210 [main] ReportManager - Expected "25 st el horya", and actual "25 st el horya"
+[INFO ] 2025-03-12 15:44:24.211 [main] ReportManager - Expected "25 st el horya", and actual "25 st el horya"
+[INFO ] 2025-03-12 15:44:24.211 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.212 [main] ReportManager - Assert that "cairo" equals "cairo", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.213 [main] ReportManager - Expected "cairo", and actual "cairo"
+[INFO ] 2025-03-12 15:44:24.214 [main] ReportManager - Expected "cairo", and actual "cairo"
+[INFO ] 2025-03-12 15:44:24.214 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.215 [main] ReportManager - Assert that "california" equals "california", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.216 [main] ReportManager - Expected "california", and actual "california"
+[INFO ] 2025-03-12 15:44:24.216 [main] ReportManager - Expected "california", and actual "california"
+[INFO ] 2025-03-12 15:44:24.217 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.219 [main] ReportManager - Assert that "25478" equals "25478", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.220 [main] ReportManager - Expected "25478", and actual "25478"
+[INFO ] 2025-03-12 15:44:24.220 [main] ReportManager - Expected "25478", and actual "25478"
+[INFO ] 2025-03-12 15:44:24.220 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.222 [main] ReportManager - Assert that "United States" equals "United States", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.223 [main] ReportManager - Expected "United States", and actual "United States"
+[INFO ] 2025-03-12 15:44:24.224 [main] ReportManager - Expected "United States", and actual "United States"
+[INFO ] 2025-03-12 15:44:24.224 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.226 [main] ReportManager - Assert that "123456789" equals "123456789", ignoring case sensitivity.
+[DEBUG] 2025-03-12 15:44:24.227 [main] ReportManager - Expected "123456789", and actual "123456789"
+[INFO ] 2025-03-12 15:44:24.228 [main] ReportManager - Expected "123456789", and actual "123456789"
+[INFO ] 2025-03-12 15:44:24.229 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:24.232 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_PlaceOrderLoginBeforeCheckout'
+[INFO ] 2025-03-12 15:44:24.233 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                    Finished Execution of Test Method: 'TestPackage.TestPlaceOrder.Verify_that_PlaceOrderLoginBeforeCheckout'                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:24.245 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '24 out of 27' test cases in the current suite                                       
+                            Test Method: 'TestPackage.TestPlaceOrder.Verify_that_Order_has_been_Placed_Successfully'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:25.128 [main] ReportManager - Click "Place Order"
+[INFO ] 2025-03-12 15:44:26.141 [main] ReportManager - Type "By.cssSelector: input[name='name_on_card']"
+[INFO ] 2025-03-12 15:44:26.411 [main] ReportManager - Type "By.cssSelector: input[name='card_number']"
+[INFO ] 2025-03-12 15:44:26.736 [main] ReportManager - Type "ex. 311"
+[INFO ] 2025-03-12 15:44:26.937 [main] ReportManager - Type "MM"
+[INFO ] 2025-03-12 15:44:27.176 [main] ReportManager - Type "YYYY"
+[INFO ] 2025-03-12 15:44:28.975 [main] ReportManager - Click "Pay and Confirm Order"
+[INFO ] 2025-03-12 15:44:28.976 [main] ReportManager - Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:44:30.995 [main] ReportManager - Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b"
+[DEBUG] 2025-03-12 15:44:30.996 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:31.628 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-44-31-626_12032025'
+[INFO ] 2025-03-12 15:44:31.630 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:31.631 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:31.631 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:44:31.635 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_Order_has_been_Placed_Successfully'
+[INFO ] 2025-03-12 15:44:31.636 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.TestPlaceOrder.Verify_that_Order_has_been_Placed_Successfully'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:31.646 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                'TestPackage.TestRemoveProductFromCart.initiate'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:31.649 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:44:31.652 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:31.654 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:44:31.657 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:31.658 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:44:31.661 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:31.664 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:44:31.666 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:31.668 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:44:31.670 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:31.672 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:44:31.814 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:31.819 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:44:31.827 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '25 out of 27' test cases in the current suite                                       
+                          Test Method: 'TestPackage.TestRemoveProductFromCart.Verify_that_Product_Deleted_Successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:31.831 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:44:31.858 [main] ReportManager - Initial URL: "https://automationexercise.com/payment_done/2500"
+[INFO ] 2025-03-12 15:44:35.872 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:44:36.323 [main] ReportManager - Click " Products"
+[INFO ] 2025-03-12 15:44:37.355 [main] ReportManager - Click " Add to cart"
+[INFO ] 2025-03-12 15:44:37.975 [main] ReportManager - Click "View Cart"
+[INFO ] 2025-03-12 15:44:38.645 [main] ReportManager - Click ""
+[INFO ] 2025-03-12 15:44:38.647 [main] ReportManager - Assert that the element located by "By.cssSelector: p[class='text-center'] b" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:44:38.775 [main] ReportManager - Get  dom  attribute "By.cssSelector: p[class='text-center'] b"
+[DEBUG] 2025-03-12 15:44:38.776 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:39.835 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-44-39-832_12032025'
+[INFO ] 2025-03-12 15:44:39.837 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:39.837 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:39.838 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:44:39.844 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_Product_Deleted_Successfully'
+[INFO ] 2025-03-12 15:44:39.844 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+               Finished Execution of Test Method: 'TestPackage.TestRemoveProductFromCart.Verify_that_Product_Deleted_Successfully'               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:39.849 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                               Starting execution of initiate configuration method                                               
+                                                'TestPackage.TestViewCategoriesProducts.initiate'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:39.852 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[INFO ] 2025-03-12 15:44:39.959 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:39.959 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[INFO ] 2025-03-12 15:44:39.974 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:39.989 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/ProductName.json".
+[INFO ] 2025-03-12 15:44:40.019 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:40.049 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/PaymentTestData.json".
+[INFO ] 2025-03-12 15:44:40.064 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:40.064 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[INFO ] 2025-03-12 15:44:40.064 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:40.064 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/URLTestData.json".
+[INFO ] 2025-03-12 15:44:40.064 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-03-12 15:44:40.064 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: initiate'
+[INFO ] 2025-03-12 15:44:40.064 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '26 out of 27' test cases in the current suite                                       
+                           Test Method: 'TestPackage.TestViewCategoriesProducts.Verify_that_Category_In_Left_Side_bar'                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:40.079 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-12 15:44:40.094 [main] ReportManager - Initial URL: "https://automationexercise.com/view_cart"
+[INFO ] 2025-03-12 15:44:43.539 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-12 15:44:43.541 [main] ReportManager - Assert that the element located by "By.xpath: //div[@class='left-sidebar']/h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:44:43.745 [main] ReportManager - Get  dom  attribute "CATEGORY"
+[DEBUG] 2025-03-12 15:44:43.747 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:52.327 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-44-52-251_12032025'
+[INFO ] 2025-03-12 15:44:52.327 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:52.327 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:52.327 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:44:52.327 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_Category_In_Left_Side_bar'
+[INFO ] 2025-03-12 15:44:52.327 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                Finished Execution of Test Method: 'TestPackage.TestViewCategoriesProducts.Verify_that_Category_In_Left_Side_bar'                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:52.341 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '27 out of 27' test cases in the current suite                                       
+                      Test Method: 'TestPackage.TestViewCategoriesProducts.Verify_that_User_Is_Navigated_To_Category_Page'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:52.507 [main] ReportManager - Click " WOMEN"
+[INFO ] 2025-03-12 15:44:52.682 [main] ReportManager - Click "DRESS"
+[INFO ] 2025-03-12 15:44:52.712 [main] ReportManager - Assert that the element located by "By.cssSelector: .title.text-center" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-12 15:44:53.837 [main] ReportManager - Get  dom  attribute "WOMEN - DRESS PRODUCTS"
+[DEBUG] 2025-03-12 15:44:53.837 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:54.814 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_15-44-54-814_12032025'
+[INFO ] 2025-03-12 15:44:54.814 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-12 15:44:54.814 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-12 15:44:54.814 [main] ReportManager - Verify that element is visible
+[INFO ] 2025-03-12 15:44:54.919 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_User_Is_Navigated_To_Category_Page'
+[INFO ] 2025-03-12 15:44:54.919 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+           Finished Execution of Test Method: 'TestPackage.TestViewCategoriesProducts.Verify_that_User_Is_Navigated_To_Category_Page'           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:54.919 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-12 15:44:54.919 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

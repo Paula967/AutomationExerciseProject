@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 27' test cases in the current suite                                       
+           Test Method: 'TestPackage.TestLoginWithInvalidData.Verify_that_ErrorYourEmailOrPasswordIsIncorrect_is_visible_successfully'           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Email Address" @12-03-2025 15:42:46.0983 PM
+[ReportManager] Type "Password" @12-03-2025 15:42:47.0188 PM
+[ReportManager] Click "Login" @12-03-2025 15:42:47.0279 PM
+[ReportManager] Assert that the element located by "By.xpath: //p[normalize-space()='Your email or password is incorrect!']" is visible; hidden attribute is equal to "null". @12-03-2025 15:42:47.0282 PM
+[ReportManager] Get  dom  attribute "By.xpath: //p[normalize-space()='Your email or password is incorrect!']" @12-03-2025 15:42:47.0840 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:47.0841 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-42-48-451_12032025' @12-03-2025 15:42:48.0454 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:48.0456 PM
+[ReportManager] Assertion passed @12-03-2025 15:42:48.0456 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:42:48.0457 PM

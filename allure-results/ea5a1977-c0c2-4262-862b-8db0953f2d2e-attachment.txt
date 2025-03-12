@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '20 out of 27' test cases in the current suite                                       
+                          Test Method: 'TestPackage.TestAddProductsInCart.Verify_ProductDetails_Is_Opened_Successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://automationexercise.com/" @12-03-2025 15:44:04.0570 PM
+[ReportManager] Initial URL: "https://automationexercise.com/view_cart" @12-03-2025 15:44:04.0585 PM
+[ReportManager] Navigate to url "https://automationexercise.com/". @12-03-2025 15:44:08.0318 PM
+[ReportManager] Click " View Product" @12-03-2025 15:44:08.0529 PM
+[ReportManager] Get current url "https://automationexercise.com/product_details/2". @12-03-2025 15:44:09.0380 PM
+[ReportManager] Assert that "https://automationexercise.com/product_details/2" contains "https://automationexercise.com/product_details/". @12-03-2025 15:44:09.0639 PM
+[ReportManager] Expected "https://automationexercise.com/product_details/", and actual "https://automationexercise.com/product_details/2" @12-03-2025 15:44:09.0640 PM
+[ReportManager] Expected "https://automationexercise.com/product_details/", and actual "https://automationexercise.com/product_details/2" @12-03-2025 15:44:09.0640 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:09.0640 PM

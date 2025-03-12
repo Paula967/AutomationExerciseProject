@@ -1,0 +1,32 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 27' test cases in the current suite                                        
+                         Test Method: 'TestPackage.TestRegisterUser.Verify_that_ACCOUNTCREATED_is_visible_successfully'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click "Mr." @12-03-2025 15:42:00.0539 PM
+[ReportManager] Type "Name *" @12-03-2025 15:42:01.0680 PM
+[ReportManager] Type "Password *" @12-03-2025 15:42:01.0860 PM
+[ReportManager] Select "9" from "By.cssSelector: #days". @12-03-2025 15:42:03.0690 PM
+[ReportManager] Select "January" from "By.cssSelector: #months". @12-03-2025 15:42:04.0276 PM
+[ReportManager] Select "2000" from "By.cssSelector: #years". @12-03-2025 15:42:05.0731 PM
+[ReportManager] Click "Sign up for our newsletter!" @12-03-2025 15:42:05.0882 PM
+[ReportManager] Click "Receive special offers from our partners!" @12-03-2025 15:42:06.0002 PM
+[ReportManager] Type "First name *" @12-03-2025 15:42:06.0887 PM
+[ReportManager] Type "Last name *" @12-03-2025 15:42:07.0106 PM
+[ReportManager] Type "Company" @12-03-2025 15:42:07.0316 PM
+[ReportManager] Type "Address * (Street address, P.O. Box, Company name, etc.)" @12-03-2025 15:42:07.0496 PM
+[ReportManager] Type "Address 2" @12-03-2025 15:42:07.0706 PM
+[ReportManager] Select "United States" from "Country *". @12-03-2025 15:42:08.0307 PM
+[ReportManager] Type "State *" @12-03-2025 15:42:08.0517 PM
+[ReportManager] Type "City * Zipcode *" @12-03-2025 15:42:08.0727 PM
+[ReportManager] Type "By.cssSelector: #zipcode" @12-03-2025 15:42:08.0972 PM
+[ReportManager] Type "Mobile Number *" @12-03-2025 15:42:09.0167 PM
+[ReportManager] Click "Create Account" @12-03-2025 15:42:09.0618 PM
+[ReportManager] Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null". @12-03-2025 15:42:09.0633 PM
+[ReportManager] Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b" @12-03-2025 15:42:12.0131 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:12.0131 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-42-13-297_12032025' @12-03-2025 15:42:13.0302 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:13.0302 PM
+[ReportManager] Assertion passed @12-03-2025 15:42:13.0302 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:42:13.0302 PM

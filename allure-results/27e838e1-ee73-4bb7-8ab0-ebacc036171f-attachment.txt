@@ -1,0 +1,42 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '16 out of 27' test cases in the current suite                                       
+                        Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_ProductDetails_Is_Visible'                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " View Product" @12-03-2025 15:43:37.0524 PM
+[ReportManager] Assert that the element located by "By.cssSelector: div[class='product-information'] h2" is visible; hidden attribute is equal to "null". @12-03-2025 15:43:37.0824 PM
+[ReportManager] Get  dom  attribute "Blue Top" @12-03-2025 15:43:40.0614 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:40.0614 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-43-42-414_12032025' @12-03-2025 15:43:42.0429 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:42.0429 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:42.0429 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:43:42.0429 PM
+[ReportManager] Assert that the element located by "By.xpath: //p[normalize-space()='Category: Women > Tops']" is visible; hidden attribute is equal to "null". @12-03-2025 15:43:42.0429 PM
+[ReportManager] Get  dom  attribute "By.xpath: //p[normalize-space()='Category: Women > Tops']" @12-03-2025 15:43:42.0569 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:42.0571 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-43-45-663_12032025' @12-03-2025 15:43:45.0678 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:45.0678 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:45.0678 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:43:45.0678 PM
+[ReportManager] Assert that the element located by "By.xpath: //b[normalize-space()='Availability:']" is visible; hidden attribute is equal to "null". @12-03-2025 15:43:45.0688 PM
+[ReportManager] Get  dom  attribute "By.xpath: //b[normalize-space()='Availability:']" @12-03-2025 15:43:45.0822 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:45.0822 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-43-46-858_12032025' @12-03-2025 15:43:46.0858 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:46.0858 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:46.0858 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:43:46.0858 PM
+[ReportManager] Assert that the element located by "By.xpath: //b[normalize-space()='Condition:']" is visible; hidden attribute is equal to "null". @12-03-2025 15:43:46.0858 PM
+[ReportManager] Get  dom  attribute "By.xpath: //b[normalize-space()='Condition:']" @12-03-2025 15:43:46.0990 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:46.0991 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-43-48-414_12032025' @12-03-2025 15:43:48.0414 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:48.0414 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:48.0414 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:43:48.0414 PM
+[ReportManager] Assert that the element located by "By.xpath: //b[normalize-space()='Brand:']" is visible; hidden attribute is equal to "null". @12-03-2025 15:43:48.0414 PM
+[ReportManager] Get  dom  attribute "By.xpath: //b[normalize-space()='Brand:']" @12-03-2025 15:43:48.0556 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:48.0557 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-43-50-033_12032025' @12-03-2025 15:43:50.0033 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:43:50.0033 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:50.0033 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:43:50.0033 PM

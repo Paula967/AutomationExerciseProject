@@ -1,0 +1,28 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '19 out of 27' test cases in the current suite                                       
+                          Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_productAddedInCart_Successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://automationexercise.com/" @12-03-2025 15:43:55.0510 PM
+[ReportManager] Initial URL: "https://automationexercise.com/products?search=Green%20Side%20Placket%20Detail%20T-Shirt" @12-03-2025 15:43:55.0579 PM
+[ReportManager] Navigate to url "https://automationexercise.com/". @12-03-2025 15:44:00.0896 PM
+[ReportManager] Click " Products" @12-03-2025 15:44:01.0001 PM
+[ReportManager] Click " Add to cart" @12-03-2025 15:44:01.0980 PM
+[ReportManager] Click "By.xpath: //button[normalize-space()='Continue Shopping']" @12-03-2025 15:44:02.0626 PM
+[ReportManager] Get  text "By.xpath: (//div[@class='product-overlay']/div/p)[1]" @12-03-2025 15:44:02.0671 PM
+[ReportManager] Get  text "By.xpath: (//div[@class='product-overlay']/div/p)[2]" @12-03-2025 15:44:02.0815 PM
+[ReportManager] Click " Add to cart" @12-03-2025 15:44:03.0133 PM
+[ReportManager] Click "View Cart" @12-03-2025 15:44:03.0820 PM
+[ReportManager] Get  text "Blue Top" @12-03-2025 15:44:04.0465 PM
+[ReportManager] Get  text "Men Tshirt" @12-03-2025 15:44:04.0540 PM
+[ReportManager] Assert that "Blue Top" is equal to "Blue Top". @12-03-2025 15:44:04.0540 PM
+[ReportManager] Expected "Blue Top", and actual "Blue Top" @12-03-2025 15:44:04.0540 PM
+[ReportManager] Expected "Blue Top", and actual "Blue Top" @12-03-2025 15:44:04.0540 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:04.0540 PM
+[ReportManager] Products are not the same @12-03-2025 15:44:04.0540 PM
+[ReportManager] Assert that "Men Tshirt" is equal to "Men Tshirt". @12-03-2025 15:44:04.0555 PM
+[ReportManager] Expected "Men Tshirt", and actual "Men Tshirt" @12-03-2025 15:44:04.0555 PM
+[ReportManager] Expected "Men Tshirt", and actual "Men Tshirt" @12-03-2025 15:44:04.0555 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:04.0555 PM
+[ReportManager] Products are not the same @12-03-2025 15:44:04.0555 PM

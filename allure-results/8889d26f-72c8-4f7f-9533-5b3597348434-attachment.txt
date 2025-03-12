@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '25 out of 27' test cases in the current suite                                       
+                          Test Method: 'TestPackage.TestRemoveProductFromCart.Verify_that_Product_Deleted_Successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://automationexercise.com/" @12-03-2025 15:44:31.0831 PM
+[ReportManager] Initial URL: "https://automationexercise.com/payment_done/2500" @12-03-2025 15:44:31.0857 PM
+[ReportManager] Navigate to url "https://automationexercise.com/". @12-03-2025 15:44:35.0872 PM
+[ReportManager] Click " Products" @12-03-2025 15:44:36.0323 PM
+[ReportManager] Click " Add to cart" @12-03-2025 15:44:37.0355 PM
+[ReportManager] Click "View Cart" @12-03-2025 15:44:37.0975 PM
+[ReportManager] Click "" @12-03-2025 15:44:38.0645 PM
+[ReportManager] Assert that the element located by "By.cssSelector: p[class='text-center'] b" is visible; hidden attribute is equal to "null". @12-03-2025 15:44:38.0646 PM
+[ReportManager] Get  dom  attribute "By.cssSelector: p[class='text-center'] b" @12-03-2025 15:44:38.0775 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:38.0776 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-44-39-832_12032025' @12-03-2025 15:44:39.0835 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:39.0837 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:39.0837 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:44:39.0838 PM

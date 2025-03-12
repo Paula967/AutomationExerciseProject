@@ -1,0 +1,17 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 27' test cases in the current suite                                        
+                       Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_loggedIn_is_visible_successfully'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Email Address" @12-03-2025 15:42:30.0730 PM
+[ReportManager] Type "Password" @12-03-2025 15:42:31.0059 PM
+[ReportManager] Click "Login" @12-03-2025 15:42:31.0177 PM
+[ReportManager] Assert that the element located by "By.cssSelector: li:nth-child(10) a:nth-child(1)" is visible; hidden attribute is equal to "null". @12-03-2025 15:42:31.0179 PM
+[ReportManager] Get  dom  attribute "By.cssSelector: li:nth-child(10) a:nth-child(1)" @12-03-2025 15:42:32.0585 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:32.0586 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-42-38-969_12032025' @12-03-2025 15:42:38.0984 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:38.0984 PM
+[ReportManager] Assertion passed @12-03-2025 15:42:38.0984 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:42:38.0984 PM
+[ReportManager] Click " Logout" @12-03-2025 15:42:39.0104 PM

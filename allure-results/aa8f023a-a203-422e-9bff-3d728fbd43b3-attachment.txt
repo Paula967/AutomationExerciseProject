@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '22 out of 27' test cases in the current suite                                       
+              Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_product_is_displayed_in_cart_page_with_correct_quantity'              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click "" @12-03-2025 15:44:11.0272 PM
+[ReportManager] Get  text "5" @12-03-2025 15:44:11.0330 PM
+[ReportManager] Assert that "5" is equal to "5". @12-03-2025 15:44:11.0333 PM
+[ReportManager] Expected "5", and actual "5" @12-03-2025 15:44:11.0334 PM
+[ReportManager] Expected "5", and actual "5" @12-03-2025 15:44:11.0334 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:11.0334 PM
+[ReportManager] Quantities Are not Equal @12-03-2025 15:44:11.0335 PM

@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 27' test cases in the current suite                                        
+                     Test Method: 'TestPackage.TestRegisterUser.Verify_that_EnterAccountInformation_is_visible_successfully'                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Name" @12-03-2025 15:41:55.0443 PM
+[ReportManager] Type "Email Address" @12-03-2025 15:41:56.0208 PM
+[ReportManager] Click "Signup" @12-03-2025 15:41:56.0268 PM
+[ReportManager] Assert that the element located by "By.xpath: //b[normalize-space()='Enter Account Information']" is visible; hidden attribute is equal to "null". @12-03-2025 15:41:56.0279 PM
+[ReportManager] Get  dom  attribute "By.xpath: //b[normalize-space()='Enter Account Information']" @12-03-2025 15:41:57.0719 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:41:57.0719 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-42-00-358_12032025' @12-03-2025 15:42:00.0358 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:00.0358 PM
+[ReportManager] Assertion passed @12-03-2025 15:42:00.0358 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:42:00.0358 PM

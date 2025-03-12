@@ -1,0 +1,12 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 27' test cases in the current suite                                       
+                               Test Method: 'TestPackage.TestLogoutUser.Verify_that_user_is_navigated_toLoginPage'                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Get current url "https://automationexercise.com/login". @12-03-2025 15:43:06.0736 PM
+[ReportManager] Assert that "https://automationexercise.com/login" is equal to "https://automationexercise.com/login". @12-03-2025 15:43:06.0858 PM
+[ReportManager] Expected "https://automationexercise.com/login", and actual "https://automationexercise.com/login" @12-03-2025 15:43:06.0858 PM
+[ReportManager] Expected "https://automationexercise.com/login", and actual "https://automationexercise.com/login" @12-03-2025 15:43:06.0858 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:06.0858 PM
+[ReportManager] User can not Navigated to Login Page @12-03-2025 15:43:06.0858 PM

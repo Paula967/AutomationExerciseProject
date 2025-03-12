@@ -1,0 +1,14 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 27' test cases in the current suite                                        
+                  Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_LoginToYourAccount_is_visible_successfully'                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " Signup / Login" @12-03-2025 15:42:27.0501 PM
+[ReportManager] Assert that the element located by "By.cssSelector: div[class='login-form'] h2" is visible; hidden attribute is equal to "null". @12-03-2025 15:42:27.0517 PM
+[ReportManager] Get  dom  attribute "Login to your account" @12-03-2025 15:42:28.0922 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:28.0923 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-42-29-654_12032025' @12-03-2025 15:42:29.0657 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:42:29.0658 PM
+[ReportManager] Assertion passed @12-03-2025 15:42:29.0659 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:42:29.0660 PM

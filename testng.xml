@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/AutomationExerciseProject">
+        <classes>
+            <class name="TestPackage.TestRegisterUser"/>
+            <class name="TestPackage.TestLoginUserWithValidData"/>
+            <class name="TestPackage.TestLoginWithInvalidData"/>
+            <class name="TestPackage.TestLogoutUser"/>
+            <class name="TestPackage.TestRegisterWithExistingEmail"/>
+            <class name="TestPackage.TestAllProductsAndProductDetails"/>
+            <class name="TestPackage.TestSearchProduct"/>
+            <class name="TestPackage.TestAddProductsInCart"/>
+            <class name="TestPackage.TestPlaceOrder"/>
+            <class name="TestPackage.TestRemoveProductFromCart"/>
+            <class name="TestPackage.TestViewCategoriesProducts"/>
+        </classes>
+    </test>
+</suite>

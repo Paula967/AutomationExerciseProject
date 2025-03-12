@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '26 out of 27' test cases in the current suite                                       
+                           Test Method: 'TestPackage.TestViewCategoriesProducts.Verify_that_Category_In_Left_Side_bar'                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://automationexercise.com/" @12-03-2025 15:44:40.0079 PM
+[ReportManager] Initial URL: "https://automationexercise.com/view_cart" @12-03-2025 15:44:40.0094 PM
+[ReportManager] Navigate to url "https://automationexercise.com/". @12-03-2025 15:44:43.0539 PM
+[ReportManager] Assert that the element located by "By.xpath: //div[@class='left-sidebar']/h2" is visible; hidden attribute is equal to "null". @12-03-2025 15:44:43.0541 PM
+[ReportManager] Get  dom  attribute "CATEGORY" @12-03-2025 15:44:43.0745 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:43.0747 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-44-52-251_12032025' @12-03-2025 15:44:52.0327 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:52.0327 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:52.0327 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:44:52.0327 PM

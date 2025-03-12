@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '14 out of 27' test cases in the current suite                                       
+            Test Method: 'TestPackage.TestAllProductsAndProductDetails.Verify_that_User_Is_Navigated_To_AllProductsPage_successfully'            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " Products" @12-03-2025 15:43:21.0052 PM
+[ReportManager] Get current url "https://automationexercise.com/products". @12-03-2025 15:43:22.0851 PM
+[ReportManager] Assert that "https://automationexercise.com/products" is equal to "https://automationexercise.com/products". @12-03-2025 15:43:23.0463 PM
+[ReportManager] Expected "https://automationexercise.com/products", and actual "https://automationexercise.com/products" @12-03-2025 15:43:23.0465 PM
+[ReportManager] Expected "https://automationexercise.com/products", and actual "https://automationexercise.com/products" @12-03-2025 15:43:23.0466 PM
+[ReportManager] Assertion passed @12-03-2025 15:43:23.0467 PM
+[ReportManager] Verify That user is navigated To All Products Page @12-03-2025 15:43:23.0467 PM

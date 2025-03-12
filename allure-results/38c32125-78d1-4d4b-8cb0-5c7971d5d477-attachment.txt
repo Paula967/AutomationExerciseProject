@@ -1,0 +1,14 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 27' test cases in the current suite                                        
+                          Test Method: 'TestPackage.TestRegisterUser.Verify_that_newUserSignUp_is_visible_successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " Signup / Login" @12-03-2025 15:41:42.0915 PM
+[ReportManager] Assert that the element located by "By.cssSelector: div[class='signup-form'] h2" is visible; hidden attribute is equal to "null". @12-03-2025 15:41:42.0915 PM
+[ReportManager] Get  dom  attribute "New User Signup!" @12-03-2025 15:41:53.0610 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:41:53.0625 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-41-54-782_12032025' @12-03-2025 15:41:54.0782 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:41:54.0782 PM
+[ReportManager] Assertion passed @12-03-2025 15:41:54.0797 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:41:54.0797 PM

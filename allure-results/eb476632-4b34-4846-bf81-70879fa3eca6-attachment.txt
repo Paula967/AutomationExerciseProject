@@ -1,0 +1,10 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '21 out of 27' test cases in the current suite                                       
+               Test Method: 'TestPackage.TestAddProductsInCart.Verify_that_product_is_displayed_in_cart_page_with_exact_quantity'               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "By.cssSelector: #quantity" @12-03-2025 15:44:10.0081 PM
+[ReportManager] Click " Add to cart" @12-03-2025 15:44:10.0203 PM
+[ReportManager] Get  text "By.cssSelector: #quantity" @12-03-2025 15:44:10.0352 PM
+[ReportManager] Click "By.cssSelector: p[class='text-center'] a" @12-03-2025 15:44:10.0672 PM

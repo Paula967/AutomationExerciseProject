@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '24 out of 27' test cases in the current suite                                       
+                            Test Method: 'TestPackage.TestPlaceOrder.Verify_that_Order_has_been_Placed_Successfully'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click "Place Order" @12-03-2025 15:44:25.0128 PM
+[ReportManager] Type "By.cssSelector: input[name='name_on_card']" @12-03-2025 15:44:26.0141 PM
+[ReportManager] Type "By.cssSelector: input[name='card_number']" @12-03-2025 15:44:26.0411 PM
+[ReportManager] Type "ex. 311" @12-03-2025 15:44:26.0736 PM
+[ReportManager] Type "MM" @12-03-2025 15:44:26.0937 PM
+[ReportManager] Type "YYYY" @12-03-2025 15:44:27.0176 PM
+[ReportManager] Click "Pay and Confirm Order" @12-03-2025 15:44:28.0975 PM
+[ReportManager] Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null". @12-03-2025 15:44:28.0976 PM
+[ReportManager] Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b" @12-03-2025 15:44:30.0995 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:30.0996 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-44-31-626_12032025' @12-03-2025 15:44:31.0628 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:31.0629 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:31.0631 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:44:31.0631 PM

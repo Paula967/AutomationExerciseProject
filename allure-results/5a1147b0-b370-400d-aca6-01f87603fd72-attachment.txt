@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '27 out of 27' test cases in the current suite                                       
+                      Test Method: 'TestPackage.TestViewCategoriesProducts.Verify_that_User_Is_Navigated_To_Category_Page'                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click " WOMEN" @12-03-2025 15:44:52.0507 PM
+[ReportManager] Click "DRESS" @12-03-2025 15:44:52.0682 PM
+[ReportManager] Assert that the element located by "By.cssSelector: .title.text-center" is visible; hidden attribute is equal to "null". @12-03-2025 15:44:52.0712 PM
+[ReportManager] Get  dom  attribute "WOMEN - DRESS PRODUCTS" @12-03-2025 15:44:53.0837 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:53.0837 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-44-54-814_12032025' @12-03-2025 15:44:54.0814 PM
+[ReportManager] Expected "null", and actual "null" @12-03-2025 15:44:54.0814 PM
+[ReportManager] Assertion passed @12-03-2025 15:44:54.0814 PM
+[ReportManager] Verify that element is visible @12-03-2025 15:44:54.0814 PM
