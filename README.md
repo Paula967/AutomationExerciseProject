@@ -56,7 +56,6 @@ AutomationExerciseProject/
 │           └── TestRegisterUser.java
 ├── pom.xml                          # Maven dependencies
 
-
 ---
 
 ## 🎯 Test Scenarios
@@ -93,7 +92,6 @@ AutomationExerciseProject/
    cd AutomationExerciseProject
 
  👩‍💻 Author
-Paula967
 GitHub: Paula967
 A passionate automation engineer crafting reliable test suites! ✨
 📜 License
